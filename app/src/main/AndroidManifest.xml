@@ -9,8 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-
         <activity
             android:name=".Activities.Splash"
             android:theme="@style/splash">
@@ -23,9 +21,9 @@
         <activity
             android:name=".Activities.Home"
             android:label="@string/title_activity_home"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Activities.AuthActivity"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activities.AuthActivity" />
+        <activity android:name=".Activities.Profile"></activity>
     </application>
 
 </manifest>

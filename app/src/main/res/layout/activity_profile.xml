@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ashu.help.letshelp.com.letshelp.Activities.Profile">
+
+    <LinearLayout
+        android:padding="20dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/blurbackground"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:textColor="#fff"
+            android:textStyle="italic"
+            android:id="@+id/signIn_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ashutosh"
+            android:textSize="50sp"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="40sp"
+            android:id="@+id/signIn_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ashu@gmail.com"
+            android:textColor="#fff"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/signIn_Number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8755479153"
+            android:textSize="30sp"
+            android:textColor="#fff"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/signIn_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21"
+            android:textSize="40sp"
+            android:textColor="#fff"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:textStyle="italic"
+            android:id="@+id/signIn_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="40sp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

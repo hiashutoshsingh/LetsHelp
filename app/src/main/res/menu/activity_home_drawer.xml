@@ -3,24 +3,24 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_events"
             android:icon="@drawable/ic_menu_camera"
             android:title="Events" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_donate"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Donate" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_donateblood"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="DonateBlood" />
 
         <item
-            android:id="@+id/nav_slidesho"
+            android:id="@+id/nav_needhelp"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="NeedHelp" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_notification"
             android:icon="@drawable/ic_menu_manage"
             android:title="Notification" />
     </group>
@@ -28,7 +28,7 @@
     <item android:title="Others">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_profile"
                 android:icon="@drawable/ic_menu_share"
                 android:title="Profile" />
             <item

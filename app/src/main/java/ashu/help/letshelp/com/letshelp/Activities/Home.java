@@ -83,17 +83,26 @@ public class Home extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_events) {
 
-        } else if (id == R.id.nav_gallery) {
+        }
+        else if (id == R.id.nav_donate) {
 
-        } else if (id == R.id.nav_slideshow) {
+        }
+        else if (id == R.id.nav_donateblood) {
 
-        } else if (id == R.id.nav_manage) {
+        }
+        else if (id == R.id.nav_needhelp) {
 
-        } else if (id == R.id.nav_share) {
+        }
+        else if (id == R.id.nav_notification) {
 
-        } else if (id == R.id.nav_send) {
+        }
+        else if (id == R.id.nav_profile) {
+
+        startActivity(new Intent(Home.this,Profile.class));
+        }
+        else if (id == R.id.nav_send) {
 
         }
 
