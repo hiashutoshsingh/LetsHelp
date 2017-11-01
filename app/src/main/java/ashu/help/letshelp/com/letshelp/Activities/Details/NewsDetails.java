@@ -20,6 +20,24 @@ public class NewsDetails extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
 
-       
+        final String money_details = getIntent().getExtras().getString("newsdetails");
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_news);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent sendIntent = new Intent();
+                sendIntent.setAction(Intent.ACTION_SEND);
+                sendIntent.putExtra(Intent.EXTRA_TEXT, "www.playstore.com/letshelp/appid=123sde45  \n"+ money_details);
+                sendIntent.setType("text/plain");
+                startActivity(sendIntent);
+
+            }
+        });
+
+
+        newsdetails=(TextView)findViewById(R.id.newsdetails);
+        newsdetails.setText(money_details);
     }
 }
