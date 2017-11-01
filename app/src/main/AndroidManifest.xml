@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ashu.help.letshelp.com.letshelp">
 
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -33,10 +36,13 @@
         <activity android:name=".Activities.Details.EventsDetails"/>
         <activity android:name=".Activities.Details.MoneyDetails"/>
         <activity android:name=".Activities.Details.NewsDetails"/>
+        <activity android:name=".Activities.Payment"/>
 
-
-
-
+        <activity
+            android:name="com.paytm.pgsdk.PaytmPGActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
 
     </application>
 
