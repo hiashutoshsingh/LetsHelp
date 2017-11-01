@@ -10,10 +10,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
+import ashu.help.letshelp.com.letshelp.Fragments.DonateMoney;
 import ashu.help.letshelp.com.letshelp.R;
 import letshelp.letshelpngo.com.letshelp.Fragments.DonateClothes;
-import letshelp.letshelpngo.com.letshelp.Fragments.DonateMoney;
-import letshelp.letshelpngo.com.letshelp.R;
 
 public class DonateActivity extends AppCompatActivity {
 
