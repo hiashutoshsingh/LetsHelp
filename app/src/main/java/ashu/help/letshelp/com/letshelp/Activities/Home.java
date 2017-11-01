@@ -84,7 +84,7 @@ public class Home extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_events) {
-
+            startActivity(new Intent(Home.this,EventActivity.class));
         }
         else if (id == R.id.nav_donate) {
 

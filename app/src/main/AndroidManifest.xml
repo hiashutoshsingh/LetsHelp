@@ -25,6 +25,8 @@
         <activity android:name=".Activities.AuthActivity" />
         <activity android:name=".Activities.Profile" />
         <activity android:name=".Activities.Notification"></activity>
+
+        <activity android:name=".Activities.EventActivity"/>
     </application>
 
 </manifest>
