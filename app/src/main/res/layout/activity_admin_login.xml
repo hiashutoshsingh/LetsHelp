@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ashu.help.letshelp.com.letshelp.Admin.AdminPanel">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="@drawable/border_edittext"
+        android:text="@string/welcome_to_admin_login"
+        android:textSize="25sp"
+        android:gravity="center"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/helplogo"
+        android:contentDescription="@string/logo"
+        android:layout_gravity="center"
+        />
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/emaillogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_edittext"
+            android:padding="10dp"
+            android:hint="Email"
+            android:textColorHint="#000000"
+
+            tools:ignore="HardcodedText,TextFields,UnusedAttribute"
+            android:inputType="" />
+        <EditText
+            android:id="@+id/passwordlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_edittext"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:hint="Password"
+            android:textColorHint="#000000"
+
+            tools:ignore="HardcodedText,TextFields,UnusedAttribute" />
+        <Button
+            android:id="@+id/loginbtn"
+            android:background="@color/peter_river"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_width="200dp"
+            android:text="@string/login"
+            android:layout_gravity="center"
+             />
+        </LinearLayout>
+
+
+    </LinearLayout>
