@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import ashu.help.letshelp.com.letshelp.R;
-import letshelp.letshelpngo.com.letshelp.R;
 
 public class MoneyAdapter extends RecyclerView.Adapter<MoneyHolder> {
 
