@@ -52,4 +52,40 @@ public class DonateActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    public class SectionsPagerAdapter extends FragmentPagerAdapter {
+
+        public SectionsPagerAdapter(FragmentManager fm) {
+            super(fm);
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+                Fragment fragment = null;
+                if (position == 0) {
+                  fragment = new DonateMoney();
+                }
+                if (position == 1) {
+                    fragment = new DonateClothes();
+                }
+
+                return fragment;
+            }
+
+        @Override
+        public int getCount() {
+            return 2;
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            switch (position) {
+                case 0:
+                    return "DonateMoney";
+                case 1:
+                    return "DonateClothes";
+
+            }
+            return null;
+        }
+    }
 }
