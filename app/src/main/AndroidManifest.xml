@@ -2,9 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ashu.help.letshelp.com.letshelp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -27,24 +27,22 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Activities.AuthActivity" />
         <activity android:name=".Activities.Profile" />
-        <activity android:name=".Activities.Notification"></activity>
-
-        <activity android:name=".Activities.EventActivity"/>
-        <activity android:name=".Activities.DonateActivity"/>
-        <activity android:name=".Activities.BloodDonateActivity"/>
-        <activity android:name=".Activities.Details.ClothesDetails"/>
-        <activity android:name=".Activities.Details.EventsDetails"/>
-        <activity android:name=".Activities.Details.MoneyDetails"/>
-        <activity android:name=".Activities.Details.NewsDetails"/>
-        <activity android:name=".Activities.Payment"/>
-        <activity android:name=".Activities.RegisterEvent"/>
-
+        <activity android:name=".Activities.Notification" />
+        <activity android:name=".Activities.EventActivity" />
+        <activity android:name=".Activities.DonateActivity" />
+        <activity android:name=".Activities.BloodDonateActivity" />
+        <activity android:name=".Activities.Details.ClothesDetails" />
+        <activity android:name=".Activities.Details.EventsDetails" />
+        <activity android:name=".Activities.Details.MoneyDetails" />
+        <activity android:name=".Activities.Details.NewsDetails" />
+        <activity android:name=".Activities.Payment" />
+        <activity android:name=".Activities.RegisterEvent" />
         <activity
             android:name="com.paytm.pgsdk.PaytmPGActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme"
             android:windowSoftInputMode="stateHidden" />
-
+        <activity android:name=".Activities.RequestPickUpClothes"></activity>
     </application>
 
 </manifest>

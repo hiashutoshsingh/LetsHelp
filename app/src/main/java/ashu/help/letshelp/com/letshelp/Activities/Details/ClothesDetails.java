@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import ashu.help.letshelp.com.letshelp.Activities.RequestPickUpClothes;
 import ashu.help.letshelp.com.letshelp.R;
 
 
@@ -45,8 +46,8 @@ public class ClothesDetails extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                startActivity(new Intent(ClothesDetails.this, RegisterClothesDonation.class));
-//                finish();
+                startActivity(new Intent(ClothesDetails.this, RequestPickUpClothes.class));
+                finish();
             }
         });
     }
