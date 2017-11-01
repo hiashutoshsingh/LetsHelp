@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="ashu.help.letshelp.com.letshelp.EventsDetails"
+    tools:context="ashu.help.letshelp.com.letshelp.Activities.Details.EventsDetails"
     >
 
     <android.support.design.widget.AppBarLayout

@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import ashu.help.letshelp.com.letshelp.ClothesDetails;
+import ashu.help.letshelp.com.letshelp.Activities.Details.ClothesDetails;
 import ashu.help.letshelp.com.letshelp.R;
 
 

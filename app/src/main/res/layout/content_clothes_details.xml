@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="ashu.help.letshelp.com.letshelp.ClothesDetails"
+    tools:context="ashu.help.letshelp.com.letshelp.Activities.Details.ClothesDetails"
     tools:showIn="@layout/activity_clothes_details">
 
     <LinearLayout
