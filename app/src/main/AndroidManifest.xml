@@ -28,6 +28,11 @@
 
         <activity android:name=".Activities.EventActivity"/>
         <activity android:name=".Activities.DonateActivity"/>
+
+
+
+
+
     </application>
 
 </manifest>

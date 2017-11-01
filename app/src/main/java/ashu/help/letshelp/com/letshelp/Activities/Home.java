@@ -87,7 +87,7 @@ public class Home extends AppCompatActivity
             startActivity(new Intent(Home.this,EventActivity.class));
         }
         else if (id == R.id.nav_donate) {
-
+            startActivity(new Intent(Home.this,DonateActivity.class));
         }
         else if (id == R.id.nav_donateblood) {
 
