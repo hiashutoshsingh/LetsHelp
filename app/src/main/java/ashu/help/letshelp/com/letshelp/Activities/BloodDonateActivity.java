@@ -12,9 +12,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import ashu.help.letshelp.com.letshelp.R;
-import letshelp.letshelpngo.com.letshelp.Fragments.BloodDonate;
-import letshelp.letshelpngo.com.letshelp.Fragments.DonorsMap;
-import letshelp.letshelpngo.com.letshelp.R;
 
 public class BloodDonateActivity extends AppCompatActivity {
 
@@ -26,7 +23,6 @@ public class BloodDonateActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_blood_donate);
         setContentView(R.layout.activity_blood_donate);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -61,4 +57,43 @@ public class BloodDonateActivity extends AppCompatActivity {
     }
 
 
+    public class SectionsPagerAdapter extends FragmentPagerAdapter {
+
+        public SectionsPagerAdapter(FragmentManager fm) {
+            super(fm);
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            Fragment fragment = null;
+            if (position == 0) {
+
+                fragment = new DonorsMap();
+            }
+            if (position == 1) {
+
+                fragment = new BloodDonate();
+            }
+
+            return fragment;
+        }
+
+        @Override
+        public int getCount() {
+
+            return 2;
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            switch (position) {
+                case 0:
+                    return "Donors";
+                case 1:
+                    return "Requests";
+
+            }
+            return null;
+        }
+    }
 }
