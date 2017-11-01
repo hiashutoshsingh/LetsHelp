@@ -8,9 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import ashu.help.letshelp.com.letshelp.Adapters.Adapter.ClothesAdapter.ClothesAdapter;
 import ashu.help.letshelp.com.letshelp.R;
-import letshelp.letshelpngo.com.letshelp.ClothesAdapter.ClothesAdapter;
-import letshelp.letshelpngo.com.letshelp.R;
 
 
 public class DonateClothes extends Fragment {
