@@ -43,8 +43,8 @@ public class ClothesDetails extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ClothesDetails.this, RegisterClothesDonation.class));
-                finish();
+//                startActivity(new Intent(ClothesDetails.this, RegisterClothesDonation.class));
+//                finish();
             }
         });
     }
