@@ -15,12 +15,6 @@
         android:paddingRight="20dp">
 
 
-<de.hdodenhof.circleimageview.CircleImageView
-    android:layout_gravity="center_horizontal"
-    android:src="@drawable/applogo"
-    android:layout_width="100dp"
-    android:layout_height="100dp"/>
-
 
         <!-- Email Label -->
         <android.support.design.widget.TextInputLayout

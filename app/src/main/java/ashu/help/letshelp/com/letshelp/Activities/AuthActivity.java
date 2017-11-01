@@ -7,7 +7,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import ashu.help.letshelp.com.letshelp.Fragments.Login;
-import ashu.help.letshelp.com.letshelp.Fragments.Register;
 import ashu.help.letshelp.com.letshelp.R;
 
 public class AuthActivity extends AppCompatActivity {
@@ -23,11 +22,6 @@ public class AuthActivity extends AppCompatActivity {
         getSupportFragmentManager().beginTransaction()
                 .add(R.id.frameLayout_auth, login).commit();
 
-
-
-        Register register = new Register();
-        getSupportFragmentManager().beginTransaction()
-                .add(R.id.frameLayout_auth, register).commit();
     }
 
     @Override
