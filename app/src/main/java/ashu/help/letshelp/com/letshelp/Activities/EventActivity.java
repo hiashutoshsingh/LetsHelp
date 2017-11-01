@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import ashu.help.letshelp.com.letshelp.Adapters.Adapters.Event.EventAdapter;
+import ashu.help.letshelp.com.letshelp.Adapters.Adapter.Event.EventAdapter;
 import ashu.help.letshelp.com.letshelp.R;
 
 public class EventActivity extends AppCompatActivity {

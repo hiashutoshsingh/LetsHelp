@@ -1,4 +1,4 @@
-package ashu.help.letshelp.com.letshelp.Adapters.Adapters.Event;
+package ashu.help.letshelp.com.letshelp.Adapters.Adapter.Event;
 
 
 class EventHolder {

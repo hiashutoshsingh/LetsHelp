@@ -1,4 +1,4 @@
-package ashu.help.letshelp.com.letshelp.Adapters.Adapters.Event;
+package ashu.help.letshelp.com.letshelp.Adapters.Adapter.Event;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
