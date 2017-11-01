@@ -13,7 +13,8 @@ import ashu.help.letshelp.com.letshelp.R;
 
 public class Login extends Fragment {
 
-    private TextView linksignup;
+    private TextView _linksignup;
+
 
 
     public Login() {
@@ -26,9 +27,12 @@ public class Login extends Fragment {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_login, container, false);
 
-    linksignup=(TextView)view.findViewById(R.id.link_signup);
 
-        linksignup.setOnClickListener(new View.OnClickListener() {
+
+    _linksignup=(TextView)view.findViewById(R.id.link_signup);
+
+
+        _linksignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Fragment fragment = new Register();
@@ -39,7 +43,15 @@ public class Login extends Fragment {
                 fragmentTransaction.commit();
             }
         });
+
+
+
+
+
+
         return view;
     }
+
+
 
 }
