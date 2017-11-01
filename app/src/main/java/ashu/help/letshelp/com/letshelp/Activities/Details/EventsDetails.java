@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import ashu.help.letshelp.com.letshelp.Activities.RegisterEvent;
 import ashu.help.letshelp.com.letshelp.R;
 
 
@@ -44,8 +45,8 @@ public class EventsDetails extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                startActivity(new Intent(EventsDetails.this, RegisterEvent.class));
-//                finish();
+                startActivity(new Intent(EventsDetails.this, RegisterEvent.class));
+                finish();
             }
         });
     }

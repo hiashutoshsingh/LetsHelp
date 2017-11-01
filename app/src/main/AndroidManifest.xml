@@ -37,6 +37,7 @@
         <activity android:name=".Activities.Details.MoneyDetails"/>
         <activity android:name=".Activities.Details.NewsDetails"/>
         <activity android:name=".Activities.Payment"/>
+        <activity android:name=".Activities.RegisterEvent"/>
 
         <activity
             android:name="com.paytm.pgsdk.PaytmPGActivity"
