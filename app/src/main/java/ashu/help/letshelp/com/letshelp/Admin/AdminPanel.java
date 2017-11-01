@@ -14,5 +14,16 @@ public class AdminPanel extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.admin_panel_layout);
     }
-
+    public void submit(View v)
+    {
+        switch(v.getId())
+        {
+            case R.id.admin_login:Intent al=new Intent(this,AdminLogin.class);
+                                  startActivity(al);
+                break;
+            case R.id.admin_register:Intent ar=new Intent(this,AdminRegister.class);
+                                     startActivity(ar);
+                break;
+        }
+    }
 }
