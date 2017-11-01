@@ -29,6 +29,10 @@
         <activity android:name=".Activities.EventActivity"/>
         <activity android:name=".Activities.DonateActivity"/>
         <activity android:name=".Activities.BloodDonateActivity"/>
+        <activity android:name=".Activities.Details.ClothesDetails"/>
+        <activity android:name=".Activities.Details.EventsDetails"/>
+        <activity android:name=".Activities.Details.MoneyDetails"/>
+        <activity android:name=".Activities.Details.NewsDetails"/>
 
 
 

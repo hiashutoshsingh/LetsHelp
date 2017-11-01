@@ -24,7 +24,7 @@ class MoneyHolder extends RecyclerView.ViewHolder {
         skillImage=(ImageView)itemView.findViewById(R.id.imageView_article);
         skillName=(TextView) itemView.findViewById(R.id.textView_aboutArticle);
         itemView.setOnClickListener(new View.OnClickListener() {
-            
+
             @Override
             public void onClick(View view) {
                 if (getAdapterPosition()==0)
