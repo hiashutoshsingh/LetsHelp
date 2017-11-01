@@ -56,9 +56,9 @@ public class Register extends Fragment {
 
 
 
-        _nameText=(EditText)view.findViewById(R.id.input_name);
-        _emailText=(EditText)view.findViewById(R.id.input_email);
-        _passwordText=(EditText)view.findViewById(R.id.input_password);
+        _nameText=(EditText)view.findViewById(R.id.sign_input_name);
+        _emailText=(EditText)view.findViewById(R.id.sign_input_email);
+        _passwordText=(EditText)view.findViewById(R.id.sign_input_password);
         _signupButton=(Button)view.findViewById(R.id.btn_signup);
 
         _signupButton.setOnClickListener(new View.OnClickListener() {
