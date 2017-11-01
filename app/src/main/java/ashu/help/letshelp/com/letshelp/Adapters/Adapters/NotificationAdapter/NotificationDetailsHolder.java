@@ -1,4 +1,4 @@
-package ashu.help.letshelp.com.letshelp.Adapters.NotificationAdapter;
+package ashu.help.letshelp.com.letshelp.Adapters.Adapters.NotificationAdapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import ashu.help.letshelp.com.letshelp.Adapters.NotificationAdapter.NotificationAdapter;
+import ashu.help.letshelp.com.letshelp.Adapters.Adapters.NotificationAdapter.NotificationAdapter;
 import ashu.help.letshelp.com.letshelp.R;
 
 public class Notification extends AppCompatActivity {
