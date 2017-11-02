@@ -30,9 +30,9 @@
         <activity android:name=".Activities.AuthActivity" />
         <activity android:name=".Activities.Profile" />
         <activity android:name=".Activities.Notification" />
-<<<<<<< HEAD
+
         <activity android:name=".Admin.AdminDashboard"></activity>
-=======
+
         <activity android:name=".Activities.EventActivity" />
         <activity android:name=".Activities.DonateActivity" />
         <activity android:name=".Activities.BloodDonateActivity" />
@@ -51,7 +51,6 @@
             android:windowSoftInputMode="stateHidden" />
 
 
->>>>>>> 484759b41456592be51ebd98ddcfe238e771d075
     </application>
 
 </manifest>

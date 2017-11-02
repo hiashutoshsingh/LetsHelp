@@ -6,7 +6,7 @@ import android.widget.ImageView;
 
 import ashu.help.letshelp.com.letshelp.R;
 
-public class Fragment extends AppCompatActivity {
+public class Choose_Fragment extends AppCompatActivity {
    ImageView image;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
