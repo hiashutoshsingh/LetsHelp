@@ -3,9 +3,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/appbackground"
-    tools:context="ashu.help.letshelp.com.letshelp.Fragments.Choose_Fragment">
-    <!-- display two Button's and a FrameLayout to replace the Choose_Fragment's  -->
+    tools:context="ashu.help.letshelp.com.letshelp.Fragments.Choose_Act">
 
+    <!-- display two Button's and a FrameLayout to replace the Choose_Act's  -->
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/helplogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
     <LinearLayout
         android:padding="10dp"
         android:orientation="horizontal"
@@ -15,17 +23,23 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
+
+
     <Button
+android:id="@+id/admin"
         android:text="Admin"
         android:layout_weight="1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:onClick="submit"/>
 
     <Button
+        android:id="@+id/user12"
         android:text="User"
         android:layout_weight="1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:onClick="submit"/>
 
     </LinearLayout>
 

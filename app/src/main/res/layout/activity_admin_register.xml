@@ -50,6 +50,7 @@
             android:textColorHint="#000000"/>
 
         <Button
+            android:onClick="submit"
             android:textColor="#fff"
             android:id="@+id/registerbtn"
             android:layout_width="200dp"
