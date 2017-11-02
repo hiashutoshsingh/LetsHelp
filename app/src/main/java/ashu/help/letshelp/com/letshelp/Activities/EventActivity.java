@@ -17,6 +17,7 @@ public class EventActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_event);
+
         recyclerView=(RecyclerView)findViewById(R.id.recyclerView_Event);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         EventAdapter newsDetailAdapter=new EventAdapter();
