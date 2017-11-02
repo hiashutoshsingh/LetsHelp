@@ -1,4 +1,4 @@
-package ashu.help.letshelp.com.letshelp.Adapters.NotificationAdapter;
+package ashu.help.letshelp.com.letshelp.Adapters.Adapter.NotificationAdapter;
 
 
 class NotificationHolder {

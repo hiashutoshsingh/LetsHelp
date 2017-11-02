@@ -84,13 +84,13 @@ public class Home extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_events) {
-
+            startActivity(new Intent(Home.this,EventActivity.class));
         }
         else if (id == R.id.nav_donate) {
-
+            startActivity(new Intent(Home.this,DonateActivity.class));
         }
         else if (id == R.id.nav_donateblood) {
-
+            startActivity(new Intent(Home.this,BloodDonateActivity.class));
         }
         else if (id == R.id.nav_needhelp) {
 
@@ -104,6 +104,12 @@ public class Home extends AppCompatActivity
         }
         else if (id == R.id.nav_send) {
 
+            Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+            sharingIntent.setType("text/plain");
+            String shareBody = "An app to help out the people by donating money, clothes and blood";
+            sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "LetsHelp \n");
+            sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+            startActivity(Intent.createChooser(sharingIntent, "Share via"));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

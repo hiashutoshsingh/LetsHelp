@@ -3,7 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 484759b41456592be51ebd98ddcfe238e771d075
 
     <color name="black_overlay">#66000000</color>
     <color name="alzarin">#e74c3c</color>

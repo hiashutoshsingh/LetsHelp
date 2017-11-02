@@ -5,21 +5,22 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import ashu.help.letshelp.com.letshelp.Adapters.Adapter.NotificationAdapter.NotificationAdapter;
+import ashu.help.letshelp.com.letshelp.Adapters.Adapter.Event.EventAdapter;
 import ashu.help.letshelp.com.letshelp.R;
 
-public class Notification extends AppCompatActivity {
+public class EventActivity extends AppCompatActivity {
+    public RecyclerView recyclerView;
 
-    RecyclerView recyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_notification);
 
-        recyclerView=(RecyclerView)findViewById(R.id.recyclerView_notification);
+        setContentView(R.layout.activity_event);
+
+        recyclerView=(RecyclerView)findViewById(R.id.recyclerView_Event);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        NotificationAdapter newsDetailAdapter=new NotificationAdapter();
+        EventAdapter newsDetailAdapter=new EventAdapter();
         recyclerView.setAdapter(newsDetailAdapter);
     }
 }
