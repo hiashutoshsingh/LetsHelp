@@ -4,8 +4,12 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="black_overlay">#66000000</color>
 =======
+>>>>>>> 484759b41456592be51ebd98ddcfe238e771d075
+
+    <color name="black_overlay">#66000000</color>
+    <color name="alzarin">#e74c3c</color>
+
     <color name="peter_river">#2980b9</color>
->>>>>>> 13f48b529b9a526b90ee64ed5aceee5d7be7537f
+
 </resources>

@@ -11,6 +11,7 @@ import ashu.help.letshelp.com.letshelp.R;
 
 
 
+
 public class DonorsMap extends Fragment {
 
 
@@ -22,8 +23,8 @@ public class DonorsMap extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view= inflater.inflate(R.layout.fragment_donors_map, container, false);
 
+        View view=inflater.inflate(R.layout.fragment_donors_map,container,false);
 
         return  view;
     }
