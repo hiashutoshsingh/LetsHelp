@@ -31,7 +31,7 @@ public class RequestBloodAdapter extends RecyclerView.Adapter<RequestDetailHolde
     public RequestDetailHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         Context context = parent.getContext();
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View view=inflater.inflate(R.layout.abc_layout_reques_blood,parent,false);
+        View view=inflater.inflate(R.layout.abc_layout_request_blood,parent,false);
         return new RequestDetailHolder(view);
 
     }
