@@ -3,10 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-<<<<<<< HEAD
+
 
     <color name="black_overlay">#66000000</color>
-=======
+    <color name="alzarin">#e74c3c</color>
+
     <color name="peter_river">#2980b9</color>
->>>>>>> 13f48b529b9a526b90ee64ed5aceee5d7be7537f
+
 </resources>

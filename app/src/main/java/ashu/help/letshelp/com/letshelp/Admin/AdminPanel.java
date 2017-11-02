@@ -20,9 +20,11 @@ public class AdminPanel extends AppCompatActivity {
         {
             case R.id.admin_login:Intent al=new Intent(this,AdminLogin.class);
                                   startActivity(al);
+                                  finish();
                 break;
             case R.id.admin_register:Intent ar=new Intent(this,AdminRegister.class);
                                      startActivity(ar);
+                                     finish();
                 break;
         }
     }

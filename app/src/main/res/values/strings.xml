@@ -8,7 +8,7 @@
     <string name="logo">logo</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-<<<<<<< HEAD
+
     <string name="title_activity_home">Home</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -17,7 +17,11 @@
     <string name="title_activity_profile">Profile</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-=======
+
     <string name="welcome_to_admin_login">Welcome to Admin Login</string>
->>>>>>> 13f48b529b9a526b90ee64ed5aceee5d7be7537f
+    <string name="not_an_admin">Not an Admin?Click here</string>
+    <string name="register">Register</string>
+    <string name="already_an_admin_click_here">Already an admin?Click here</string>
+    <string name="welcome_to_admin_register">Welcome to Admin Register</string>
+
 </resources>

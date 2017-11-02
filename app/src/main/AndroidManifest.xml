@@ -24,7 +24,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Activities.AuthActivity" />
         <activity android:name=".Activities.Profile" />
-        <activity android:name=".Activities.Notification"></activity>
+        <activity android:name=".Activities.Notification" />
+        <activity android:name=".Admin.AdminDashboard"></activity>
     </application>
 
 </manifest>
