@@ -41,6 +41,7 @@
         <activity android:name=".Activities.RegisterEvent" />
         <activity android:name=".Activities.RequestPickUpClothes"/>
 
+
         <activity
             android:name="com.paytm.pgsdk.PaytmPGActivity"
             android:screenOrientation="portrait"
