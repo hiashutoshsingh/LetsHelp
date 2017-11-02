@@ -10,7 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import ashu.help.letshelp.com.letshelp.Fragments.BloodDonate;
+import ashu.help.letshelp.com.letshelp.Fragments.BloodRequest;
 import ashu.help.letshelp.com.letshelp.Fragments.DonorsMap;
 import ashu.help.letshelp.com.letshelp.R;
 
@@ -73,7 +73,7 @@ public class BloodDonateActivity extends AppCompatActivity {
             }
             if (position == 1) {
 
-                fragment = new BloodDonate();
+                fragment = new BloodRequest();
             }
 
             return fragment;

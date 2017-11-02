@@ -12,19 +12,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
             android:name=".Activities.Splash"
             android:theme="@style/splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".Activities.Home"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity android:name=".Activities.AuthActivity" />
         <activity android:name=".Activities.Profile" />
         <activity android:name=".Activities.Notification" />
@@ -36,14 +38,16 @@
         <activity android:name=".Activities.Details.MoneyDetails" />
         <activity android:name=".Activities.Details.NewsDetails" />
         <activity android:name=".Activities.Payment" />
-
         <activity android:name=".Activities.RegisterEvent" />
+        <activity android:name=".Activities.RequestPickUpClothes"/>
+
         <activity
             android:name="com.paytm.pgsdk.PaytmPGActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme"
             android:windowSoftInputMode="stateHidden" />
-        <activity android:name=".Activities.RequestPickUpClothes"></activity>
+
+
     </application>
 
 </manifest>

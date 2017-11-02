@@ -9,18 +9,18 @@ import android.view.ViewGroup;
 
 import ashu.help.letshelp.com.letshelp.R;
 
-public class BloodDonate extends Fragment {
+public class BloodRequest extends Fragment {
 
 
 
-    public BloodDonate() {
+    public BloodRequest() {
     }
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_blood_donate, container, false);
+        View view = inflater.inflate(R.layout.fragment_blood_request, container, false);
 
 
         return view;
