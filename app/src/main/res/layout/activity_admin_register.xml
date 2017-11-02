@@ -7,14 +7,15 @@
     android:padding="10dp"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context="ashu.help.letshelp.com.letshelp.Admin.AdminPanel">
+    tools:context="ashu.help.letshelp.com.letshelp.Admin.AdminRegister">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50sp"
         android:background="@drawable/border_edittext"
-        android:text="@string/welcome_to_admin_register"
+        android:text="Welcome to Admin register"
         android:textSize="25sp"
         android:gravity="center"/>
+
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
@@ -22,7 +23,7 @@
         android:layout_gravity="center_horizontal"
         />
     <LinearLayout
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:padding="20dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -46,26 +47,19 @@
             android:layout_marginTop="20dp"
             android:padding="10dp"
             android:hint="Password"
-            android:textColorHint="#000000"
+            android:textColorHint="#000000"/>
 
-            tools:ignore="HardcodedText,TextFields,UnusedAttribute" />
         <Button
+            android:textColor="#fff"
             android:id="@+id/registerbtn"
             android:layout_width="200dp"
             android:background="@color/peter_river"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="@string/register"
+            android:text="Register"
             android:layout_gravity="center"
             />
-        <TextView
-            android:id="@+id/not_an_admin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/already_an_admin_click_here"
-            android:textSize="25sp"
-            android:layout_gravity="center_horizontal"
-            android:onClick="submit"/>
+
     </LinearLayout>
 
 

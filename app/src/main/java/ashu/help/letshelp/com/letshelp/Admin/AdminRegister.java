@@ -18,12 +18,8 @@ public class AdminRegister extends AppCompatActivity {
     {
         switch(v.getId())
         {
-            case R.id.not_an_admin:
-                Intent al = new Intent(this, AdminLogin.class);
-                startActivity(al);
-                finish();
-                break;
-            case R.id.loginbtn:
+
+            case R.id.registerbtn:
                 Intent l = new Intent(this, AdminDashboard.class);
                 startActivity(l);
                 finish();

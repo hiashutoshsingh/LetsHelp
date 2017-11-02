@@ -7,7 +7,7 @@
     android:layout_marginTop="10dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ashu.help.letshelp.com.letshelp.Admin.AdminPanel">
+    tools:context="ashu.help.letshelp.com.letshelp.Admin.AdminLogin">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50sp"
@@ -23,52 +23,49 @@
         android:contentDescription="@string/logo"
         android:layout_gravity="center"
         />
+
     <LinearLayout
-        android:layout_marginTop="30dp"
-        android:padding="10dp"
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
         <EditText
             android:id="@+id/emaillogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/border_edittext"
-            android:padding="10dp"
             android:hint="Email"
-            android:textColorHint="#000000"
+            android:inputType=""
+            android:padding="10dp"
 
-            tools:ignore="HardcodedText,TextFields,UnusedAttribute"
-            android:inputType="" />
+            android:textColorHint="#000000"
+            tools:ignore="HardcodedText,TextFields,UnusedAttribute" />
+
         <EditText
             android:id="@+id/passwordlogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/border_edittext"
             android:layout_marginTop="20dp"
-            android:padding="10dp"
+            android:background="@drawable/border_edittext"
             android:hint="Password"
+            android:padding="10dp"
             android:textColorHint="#000000"
 
             tools:ignore="HardcodedText,TextFields,UnusedAttribute" />
+
         <Button
             android:id="@+id/loginbtn"
-            android:background="@color/peter_river"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
             android:layout_width="200dp"
-            android:text="@string/login"
-            android:layout_gravity="center"
-             />
-        <TextView
-            android:id="@+id/not_an_admin"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/not_an_admin"
-            android:textSize="25sp"
-            android:layout_gravity="center_horizontal"
-            android:onClick="submit"/>
-        </LinearLayout>
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/peter_river"
+            android:text="@string/login" />
 
 
     </LinearLayout>
+
+
+</LinearLayout>
