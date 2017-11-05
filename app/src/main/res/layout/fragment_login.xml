@@ -14,10 +14,15 @@
         android:paddingLeft="20dp"
         android:paddingRight="20dp">
 
-
+   <de.hdodenhof.circleimageview.CircleImageView
+    android:layout_gravity="center_horizontal"
+    android:src="@drawable/logofinal"
+    android:layout_width="150dp"
+    android:layout_height="150dp" />
 
         <!-- Email Label -->
         <android.support.design.widget.TextInputLayout
+            android:textColorHint="#ec3c62"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:layout_width="match_parent"
@@ -26,8 +31,7 @@
             >
 
             <EditText
-                android:textColor="#ec3c62"
-                android:textColorHint="#fff"
+                android:textColor="#fff"
                 android:id="@+id/input_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -37,14 +41,14 @@
 
         <!-- Password Label -->
         <android.support.design.widget.TextInputLayout
+            android:textColorHint="#ec3c62"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             >
             <EditText
-                android:textColor="#ec3c62"
-                android:textColorHint="#fff"
+                android:textColor="#fff"
                 android:id="@+id/input_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -54,8 +58,9 @@
         </android.support.design.widget.TextInputLayout>
 
         <Button
-            android:textColor="#fff"
-            android:background="#ec3c62"
+
+            android:textStyle="bold"
+            android:background="@drawable/border_blue"
             android:layout_marginLeft="40dp"
             android:id="@+id/btn_login"
             android:layout_width="263dp"

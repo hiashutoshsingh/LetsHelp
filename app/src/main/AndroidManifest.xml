@@ -47,7 +47,6 @@
 
 <activity android:name=".Admin.AdminLogin"/>
         <activity android:name=".Admin.AdminRegister"/>
-        <activity android:name=".Fragments.Choose_Act"/>
 
         <activity
             android:name="com.paytm.pgsdk.PaytmPGActivity"

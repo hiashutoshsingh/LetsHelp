@@ -154,9 +154,6 @@ public class Home extends AppCompatActivity
         else if (id == R.id.nav_donateblood) {
             startActivity(new Intent(Home.this,BloodDonateActivity.class));
         }
-        else if (id == R.id.nav_needhelp) {
-
-        }
         else if (id == R.id.nav_notification) {
             startActivity(new Intent(Home.this,Notification.class));
         }

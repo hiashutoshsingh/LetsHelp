@@ -19,10 +19,10 @@
             app:cardCornerRadius="5dp">
 
             <RelativeLayout
+                android:background="@drawable/border_blue"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 >
-
                 <TextView
                     android:padding="10dp"
                     android:id="@+id/receiver_name"
@@ -63,7 +63,8 @@
 
 
         <android.support.v7.widget.CardView
-            android:layout_marginLeft="5dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -71,6 +72,7 @@
             app:cardCornerRadius="5dp">
 
             <LinearLayout
+                android:background="@drawable/border_pink"
                 android:padding="3dp"
                 android:weightSum="3"
                 android:layout_width="match_parent"
@@ -78,6 +80,7 @@
                 >
 
                 <ImageView
+                    android:id="@+id/request_share"
                     android:src="@drawable/ic_menu_share"
                     android:layout_weight="1"
                     android:padding="10dp"
@@ -87,20 +90,22 @@
                     />
 
                 <ImageView
-                    android:src="@drawable/ic_menu_share"
+                    android:id="@+id/request_direction"
+                    android:src="@drawable/direction"
                     android:layout_weight="1"
                     android:padding="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_marginTop="5dp"
                     />
 
                 <ImageView
-                    android:src="@drawable/ic_menu_share"
+                    android:id="@+id/request_phone"
+                    android:src="@drawable/phone"
                     android:layout_weight="1"
                     android:padding="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_marginTop="5dp"
                     />
 

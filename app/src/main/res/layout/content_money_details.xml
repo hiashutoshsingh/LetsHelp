@@ -22,6 +22,9 @@
             android:text="Fasso" />
 
         <Button
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_blue"
             android:text="Continue >>"
             android:id="@+id/continue_payment"
             android:layout_width="match_parent"
